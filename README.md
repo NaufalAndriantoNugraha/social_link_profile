@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+-[Solution URL](https://your-solution-url.com)
+-[Live Site URL](https://naufalandriantonugraha.github.io/social_link_profile/)
 
 ## My process
 
