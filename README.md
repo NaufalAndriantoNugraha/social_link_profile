@@ -37,6 +37,7 @@ Users should be able to:
 
 - HTML5
 - CSS custom properties
+- CSS @font-face
 - Flexbox
 
 ### What I learned
