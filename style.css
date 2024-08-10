@@ -1,0 +1,108 @@
+@font-face {
+  font-family: 'Inter-Regular';
+  src: url('./assets/fonts/static/Inter-Regular.ttf');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Inter-SemiBold';
+  src: url('./assets/fonts/static/Inter-SemiBold.ttf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Inter-Bold';
+  src: url('./assets/fonts/static/Inter-Bold.ttf');
+  font-weight: bold;
+}
+
+:root {
+  --clr-primary: hsl(0, 0%, 8%);
+  --clr-secondary: hsl(0, 0%, 12%);
+  --clr-third: hsl(0, 0%, 20%);
+
+  --clr-yellow: hsl(75, 94%, 57%);
+  --clr-white: hsl(0, 0%, 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+  background-color: var(--clr-primary);
+  color: var(--clr-white);
+}
+
+main {
+  background-color: var(--clr-secondary);
+  width: fit-content;
+  margin: 20% auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-block-end: 20px;
+}
+
+.profile img {
+  border-radius: 50%;
+  margin-block-end: 20px;
+}
+
+.profile h1 {
+  font-family: 'Inter-Regular';
+  font-size: 20px;
+  margin-block-end: 5px;
+}
+
+.profile h2 {
+  font-family: 'Inter-SemiBold';
+  color: var(--clr-yellow);
+  font-size: 12px;
+  margin-block-end: 20px;
+}
+
+.profile p {
+  font-family: 'Inter-Regular';
+  font-size: 14px;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contacts div {
+  background-color: var(--clr-third);
+  padding: 10px;
+  color: var(--clr-white);
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.contacts div:hover,
+.contacts div:focus {
+  background-color: var(--clr-yellow);
+  color: var(--clr-primary);
+}
+
+.contacts a {
+  color: inherit;
+  text-decoration: none;
+  font-family: 'Inter-SemiBold';
+  font-size: 12px;
+}
